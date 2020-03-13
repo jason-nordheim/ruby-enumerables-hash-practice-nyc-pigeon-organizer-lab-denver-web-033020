@@ -40,7 +40,7 @@ def assign_attribute(pigeon_list_hash, data, key)
     while j < names_ary.count do
       name = names_ary[j]
       if name != nil
-        pigeon_list_hash[name][key] << value
+        pigeon_list_hash[name][key] << value.to_s
         end
       j += 1
     end
