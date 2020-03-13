@@ -1,5 +1,3 @@
-require "PrettyPrint"
-
 def nyc_pigeon_organizer(data)
   # create an array of arrays containing the pigeons by color
   # [[:purple, ["Theo", "Peter Jr.", "Lucky"]],
